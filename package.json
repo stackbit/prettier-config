@@ -25,7 +25,7 @@
         "release": "npmpub --no-release"
     },
     "devDependencies": {
-        "@stackbit/eslint-config": "^0.1.1",
+        "@stackbit/eslint-config": "^1.0.0",
         "eslint": "^5.16.0",
         "npm-run-all": "^4.1.5",
         "npmpub": "^4.1.0",
