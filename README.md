@@ -11,6 +11,7 @@ npm install --save-dev prettier @stackbit/prettier-config
 ```
 
 ## Usage
+
 Stackbit's Prettier rules come bundled in `@stackbit/prettier-config`. To enable these rules, add a `prettier` property in your `package.json`. See the [Prettier configuration docs](https://prettier.io/docs/en/configuration.html) for more details.
 
 ```json
@@ -37,11 +38,15 @@ To extend a configuration you will need to use a `prettier.config.js` or `.prett
 
 ```javascript
 module.exports = {
-    ...require('@stackbit/prettier-config'),
-    semi: false
+  ...require('@stackbit/prettier-config'),
+  semi: false
 };
 ```
 
-## [CHANGELOG](CHANGELOG.md)
+## Changelog
 
-## [LICENSE](LICENSE)
+Changes are recorded in [`CHANGELOG.md`](CHANGELOG.md).
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
