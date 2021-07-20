@@ -8,6 +8,12 @@ module.exports = {
                 tabWidth: 2,
                 singleQuote: false
             }
+        },
+        {
+            files: ['*.md', '*.markdown'],
+            options: {
+                tabWidth: 2
+            }
         }
     ],
     semi: true,
