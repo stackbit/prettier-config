@@ -12,10 +12,6 @@
     "bugs": {
         "url": "https://github.com/stackbithq/prettier-config/issues"
     },
-    "engines": {
-        "node": "^10.16.0",
-        "npm": "^6.9.0"
-    },
     "main": "prettier.config.js",
     "scripts": {
         "test": "npm run lint",
