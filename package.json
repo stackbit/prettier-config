@@ -20,7 +20,10 @@
         "format": "npm-run-all --parallel format:*",
         "format:js": "npm run lint:js -- --fix",
         "dry-release": "npmpub --dry --verbose",
-        "release": "npmpub --no-release"
+        "release": "npmpub --no-release",
+        "version-major": "npm version major -m \"bumped version to v%s\"",
+        "version-minor": "npm version minor -m \"bumped version to v%s\"",
+        "version-patch": "npm version patch -m \"bumped version to v%s\""
     },
     "devDependencies": {
         "@stackbit/eslint-config": "^1.2.0",
